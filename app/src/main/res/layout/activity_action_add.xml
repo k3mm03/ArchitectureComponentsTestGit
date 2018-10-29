@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ActionAddActivity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/employeeName_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter employee name here!!"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/leavePeriod_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the number of leave days!!"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/description_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Reason why u want to request leave!!"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/submitButton"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:text="Submit Leave Request"
+        android:layout_marginTop="40dp"
+        tools:targetApi="p" />
+
+</LinearLayout>
